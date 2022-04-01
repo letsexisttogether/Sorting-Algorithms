@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 template <typename T>
 void SelectionSort(std::vector<T>& sVec)
