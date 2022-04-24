@@ -5,7 +5,7 @@
 
 template <typename _CompType, int ElementsCount>
 void CompareAlgo(void firstSortingAlgorithm(std::vector<_CompType>&),
-				 void secondSortingAlgorithm(std::vector<_CompType>&))
+		 void secondSortingAlgorithm(std::vector<_CompType>&))
 {
 	std::cout << "Comapring Insertion and Selection\n\n";
 	std::vector<_CompType> iVec(ElementsCount);
